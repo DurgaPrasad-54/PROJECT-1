@@ -23,7 +23,7 @@ def get_aqi_bucket(aqi_value):
         return "Severe"
 
 # Load dataset
-df = pd.read_csv(r"C:\Users\prasa\OneDrive\Desktop\AQI\city_day_cleaned.csv")
+df = pd.read_csv(r"C:\Users\prasa\OneDrive\Desktop\DP\PROJECT-1\AQI\city_day_cleaned.csv")
 
 # Drop unnecessary columns
 df = df.drop(columns=["City", "Date", "AQI_Bucket"], errors="ignore")
